@@ -2,12 +2,12 @@ import heapq
 import itertools
 
 class Point:
-   x = 0.0
-   y = 0.0
-   
-   def __init__(self, x, y):
-       self.x = x
-       self.y = y
+    x = 0.0
+    y = 0.0
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
 class Event:
     x = 0.0
@@ -90,4 +90,3 @@ class PriorityQueue:
 
     def empty(self):
         return not self.pq
-            

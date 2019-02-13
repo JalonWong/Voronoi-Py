@@ -1,4 +1,4 @@
-import Tkinter as tk
+import tkinter as tk
 
 from Voronoi import Voronoi
 
@@ -45,7 +45,7 @@ class MainWindow:
             lines = vp.get_output()
             self.drawLinesOnCanvas(lines)
             
-            print lines
+            print(lines)
 
     def onClickClear(self):
         self.LOCK_FLAG = False
